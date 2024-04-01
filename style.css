@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.clock {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.sec-div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    right: 49%;
+    top: 49%;
+}
+
+.sec {
+    height: 10px;
+    width: 250px;
+    background-color: red;
+    border-radius: 20%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+
+}
+
+.min-div {}
+
+.min {
+    width: 220px;
+    height: 5px;
+    background-color: green;
+    z-index: 10;
+    border-radius: 15%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.hour {
+    width: 180px;
+    height: 8px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    border-radius: 10px;
+
+}
